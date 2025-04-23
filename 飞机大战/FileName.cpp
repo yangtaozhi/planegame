@@ -13,10 +13,6 @@ constexpr unsigned int SHP = 4;
 
 constexpr auto hurttime = 1000;//ms
 
-bool PointInRect(int x, int y, RECT& r)
-{
-	return (r.left <= x && x <= r.right && r.top <= y && y <= r.bottom);
-}
 
 bool RectDuangRect(RECT& r1, RECT& r2)
 {
